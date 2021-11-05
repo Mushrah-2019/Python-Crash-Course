@@ -26,7 +26,7 @@ at the rate of 6 percent simple interest for the period of 2years.
 principal = int(input("Enter the value for principal in $: "))
 rate = int(input("Enter the value for the rate in percentage: "))
 time = int(input("Enter the value for the time in t: "))
-simple_interest = (principal) * (rate) * (time) / 100
+simple_interest = ((principal) * (rate) * (time)) / 100
 print (f"Simple interest is {simple_interest}")
 
 
@@ -35,8 +35,9 @@ print (f"Simple interest is {simple_interest}")
 Write a python script that returns a user full name by asking for the user's first name and second name
 """
 #Solution
-first_name = str(input("My first name is :" ))
-second_name = str(input("My second name is :" ))
+first_name = input("My first name is :" )
+# the input function will always return its value as a str, so you don't have to coerce it by using str
+second_name = input("My second name is :" )
 print(f"My full name is {first_name} {second_name}")
 
 
@@ -59,6 +60,6 @@ print (f"The average age of 6 boys in secondary school is {avg_age_of_six_boys}"
 """
 Write a python code that converts Celsius to Fahrenheit (formula: F = 1.8 C + 32)
 """
-C = float(input("Enter the temperature of Celsius in °C"))
+C = float(input("Enter the temperature of Celsius in °C: "))
 F = (1.8 * C) + 32
 print(f"Temperature in Fahrenheit is {F}")
