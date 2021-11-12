@@ -1,4 +1,22 @@
 #Task 1:
+"""
+You can actually declare the variable at the start of your code and keep reusing it:
+e.g: num1 = 10
+num2 = 20
+And you wouldn't need to keep declaring those variables again
+
+Solution:
+num1 = 10
+num 2 = 20
+
+#Addition
+add_two_num = num1 + num2
+print(add_two_num)
+
+#Subtraction
+sub_two_num = num1 - num2
+print(sub_two_num)
+"""
 
 #Addition
 num1 = 10
