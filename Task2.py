@@ -4,7 +4,8 @@
 lenght = 7
 breadth = 4
 Area = lenght * breadth
-print (Area)
+print (f"The area of a circle with a length of {lenght} and breadth of {breadth} is {Area}")
+
 
 #Task 2
 
@@ -13,16 +14,17 @@ print (Area)
 pi = 3.142
 radius = 7
 area_of_a_circle = (pi * radius**2)
-print (f"The area of a circle with a radius of 7 equals {area_of_a_circle}")
+print (f"The area of a circle with a radius of {radius} equals {area_of_a_circle}")
 
 
 #2 (Calculate the volume of a cylinder with a depth of 20cm, and whose circular end has a radius of 2.5cm. (volume of a cylinder = 𝛑r2h))
 
 height = 20
+depth = 20
 radius = 2.5
 pi = 3.142
 volume_of_a_cylinder = (pi) * (radius**2) * (height)
-print (f"The volume of a cylinder with a depth of 20cm, and whose circular end has a radius of 2.5cm is {volume_of_a_cylinder} cm³")
+print (f"The volume of a cylinder with a depth of {depth}, and whose circular end has a radius of {radius}cm is {volume_of_a_cylinder} cm³")
 
 
 #3 (A cubic box with the dimensions 15cm width, 25cm length and 5 cm height has a volume of? (volume of a cuboid = length x breadth x height))
@@ -31,7 +33,7 @@ width = 15
 length = 25
 height = 5
 vol_of_cuboid = width * length * height
-print (f"A cubic box with the dimensions 15cm width, 25cm length and 5 cm height has a volume of {vol_of_cuboid}")
+print (f"A cubic box with the dimensions of {width} width, {length}cm length and {height}cm height has a volume of {vol_of_cuboid}")
 
 
 #4 (What is the area of a triangle whose base is 8cm and height is 12cm? (1/2bh))
@@ -39,7 +41,7 @@ print (f"A cubic box with the dimensions 15cm width, 25cm length and 5 cm height
 base = 8
 height = 12
 area_of_triangle = (1/2) * (base) * (height)
-print (f"The area of triangle whose base is 8cm and height is 12cm equals {area_of_triangle} cm2 ")
+print (f"The area of triangle whose base is {base}cm and height is {height}cm equals {area_of_triangle} cm2 ")
 
 
 #5
