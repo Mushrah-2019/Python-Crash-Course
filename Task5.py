@@ -68,4 +68,8 @@ print(my_dict['k1'][0]['nest_key'][1])
 
 #Question15...my_dict = {'k1':[1,2,{'k2':['this is tricky',{'tough':[1,2,['hello']]}]}]}...Grab hello
 my_dict = {'k1':[1,2,{'k2':['this is tricky',{'tough':[1,2,['hello']]}]}]}
+<<<<<<< HEAD
 print(my_dict['k1'][2]['k2'][1]['tough'][2][0])
+=======
+print(my_dict['k1'][2]['k2'][1]['tough'][2][0])   
+>>>>>>> 47f2f4a9ad0f0cdef7df64bba5fa96ae533a5461
